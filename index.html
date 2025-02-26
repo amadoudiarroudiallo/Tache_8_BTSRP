@@ -11,36 +11,92 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark text-center">
+            <div class="container bg-dark">
+                <a class="navbar-brand text-warning fw-bolder" href="#">Start Botstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                    <ul class="navbar-nav fw-lighter">
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" aria-current="page" href="#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">TEAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-center">
-        <div class="container">
-            <a class="navbar-brand text-warning fw-bolder" href="#">Start Botstrap</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-                <ul class="navbar-nav fw-lighter">
-                    <li class="nav-item">
-                        <a class="nav-link active text-warning fw-bolder" aria-current="page" href="#">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">PORTFOLIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">TEAM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">CONTACT</a>
-                    </li>
-                </ul>
+        <section id="sec1">
+            <div class="container text-center text-white ">
+                <div class="row">
+                    <div class="col-12 col-md-12 mt-3">
+                        <h3>Welcome To Our Studio!</h3>
+                        <h1>It's Nice To Meet You</h1>
+                        <button type="button" class="btn btn-warning mt-5 fs-5 text-white">TELL ME MORE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!--------------- section SERVICES --------------->
+    <section id="services" class="container text-center mt-5">
+        <h1>SERVICES</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="row mt-3">
+            <div class="col-12 col-md-4 col-lg-0 mt-5">
+                <ion-icon name="cart"></ion-icon>
+                <h3>E-Commerce</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                    inventore harum ex magni, dicta impedit.</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-0 mt-5">
+
+                <ion-icon name="desktop" class="color"></ion-icon>
+
+                <h3>Responsive Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                    inventore harum ex magni, dicta impedit.</p>
+
+            </div>
+            <div class="col-12 col-md-4 col-lg-0 mt-5">
+                <ion-icon name="lock-closed"></ion-icon>
+                <h3>Web Security</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                inventore harum ex magni, dicta impedit.
             </div>
         </div>
-    </nav>
 
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

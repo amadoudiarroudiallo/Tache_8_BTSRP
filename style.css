@@ -4,3 +4,44 @@
     transform: scale(1.1);
     font-weight: lighter;
 }
+
+header{
+    background: url("image/header-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header #sec1{
+    margin-top: 18%;
+}
+
+header .btn{
+    width: 10rem;
+    height: 3rem;
+}
+
+header h1{
+    letter-spacing: 4px;
+    font-size: 60px;
+}
+
+header h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#services{
+    height: 100vh;
+    padding-top: 7rem;
+}
+
+ion-icon{
+    width: 50%;
+    height: 50%;
+    color: #d9aa10;
+    border-radius: 100%;
+}
+
+#services h1{
+    letter-spacing: 5px;
+}
