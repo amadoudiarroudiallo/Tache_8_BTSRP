@@ -1,107 +1,792 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.js" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <title>Tache 8</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark text-center">
-            <div class="container bg-dark">
-                <a class="navbar-brand text-warning fw-bolder" href="#">Start Botstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-                    <ul class="navbar-nav fw-lighter">
-                        <li class="nav-item">
-                            <a class="nav-link text-white fw-bolder" aria-current="page" href="#services">SERVICES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">TEAM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-danger text-center">
+        <div class="container-fluid bg-dark fixed-top">
+          <a class="navbar-brand text-warning fw-bolder " href="#"
+            > Start bootstrap</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav fw-lighter">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fw-bolder"
+                  aria-current="page"
+                  href="#services"
+                  >SERVICES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#Team">TEAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#Contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-        <section id="sec1">
-            <div class="container text-center text-white ">
-                <div class="row">
-                    <div class="col-12 col-md-12 mt-3">
-                        <h3>Welcome To Our Studio!</h3>
-                        <h1>It's Nice To Meet You</h1>
-                        <button type="button" class="btn btn-warning mt-5 fs-5 text-white">TELL ME MORE</button>
-                    </div>
-                </div>
+      <section id="sec1">
+        <div class="container text-center py-5 my-5 text-white">
+          <div class="row gy-5">
+            <div class="col-12 col-md-12 mt-3">
+              <h3>Welcome To Our Studio!</h3>
+              <h1>It's Nice To Meet You</h1>
+              <button
+                type="button"
+                class="btn btn-warning mt-5 fs-5 text-white"
+              >
+                TELL ME MORE
+              </button>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </header>
 
     <!--------------- section SERVICES --------------->
-    <section id="services" class="container text-center mt-5">
-        <h1>SERVICES</h1>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <div class="row mt-3">
-            <div class="col-12 col-md-4 col-lg-0 mt-5">
-                <ion-icon name="cart"></ion-icon>
-                <h3>E-Commerce</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
-                    inventore harum ex magni, dicta impedit.</p>
-            </div>
-            <div class="col-12 col-md-4 col-lg-0 mt-5">
-
-                <ion-icon name="desktop" class="color"></ion-icon>
-
-                <h3>Responsive Design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
-                    inventore harum ex magni, dicta impedit.</p>
-
-            </div>
-            <div class="col-12 col-md-4 col-lg-0 mt-5">
-                <ion-icon name="lock-closed"></ion-icon>
-                <h3>Web Security</h3>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
-                inventore harum ex magni, dicta impedit.
-            </div>
+    <section id="services" class="container text-center pt-5">
+      <h1>SERVICES</h1>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="row gy-5">
+        <div class="col-md-4 col-lg-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="mt-4">E-Commerce</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+            maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
         </div>
-
+        <div class="col-md-4 col-lg-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="mt-4">Responsive Design</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+            maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="mt-4">Web Security</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+            maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
+        </div>
+      </div>
     </section>
 
+    <!--------------------- PORTFOLIO SECTION ------------>
+    <section id="portfolio">
+      <div class="container py-5">
+        <div class="text-center">
+          <h2 class="text-uppercase fw-bolder">Portfolio</h2>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="row gy-5">
+          <div class="col-md-4 col-lg-4">
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="w-100"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <img src="image/1.jpg" alt="" class="img-fluid" />
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade w-100"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1
+                      class="modal-title fs-3 text-center"
+                      id="staticBackdropLabel"
+                    >
+                      Project Name
+                    </h1>
+                    <br />
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur</p> -->
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="image/1.jpg"
+                      alt=""
+                      class="img-fluid justify-content-center"
+                    />
+                  </div>
+                  <p class="text-center">
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                  <h3>Client: Threads</h3>
+                  <h3>Category: Illustration</h3>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-warning w-100 text-white"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- deuxieme col -->
+          <div class="col-md-4 col-lg-4">
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="w-100"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <img src="image/2.jpg" alt="" class="img-fluid" />
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade w-100"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1
+                      class="modal-title fs-3 text-center"
+                      id="staticBackdropLabel"
+                    >
+                      Project Name
+                    </h1>
+                    <br />
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="image/2.jpg"
+                      alt=""
+                      class="img-fluid justify-content-center"
+                    />
+                  </div>
+                  <p class="text-center">
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                  <p>Client: Threads</p>
+                  <p>Category: Illustration</p>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-warning w-100 text-white"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- troisiemes col -->
+          <div class="col-md-4 col-lg-4">
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="w-100"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <img src="image/3.jpg" alt="" class="img-fluid" />
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade w-100"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1
+                      class="modal-title fs-3 text-center"
+                      id="staticBackdropLabel"
+                    >
+                      Project Name
+                    </h1>
+                    <br />
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur</p> -->
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="image/3.jpg"
+                      alt=""
+                      class="img-fluid justify-content-center"
+                    />
+                  </div>
+                  <p class="text-center">
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                  <h3>Client: Threads</h3>
+                  <h3>Category: Illustration</h3>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-warning w-100 text-white"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4">
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="w-100"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <img src="image/4.jpg" alt="" class="img-fluid" />
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade w-100"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1
+                      class="modal-title fs-3 text-center"
+                      id="staticBackdropLabel"
+                    >
+                      Project Name
+                    </h1>
+                    <br />
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur</p> -->
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="image/4.jpg"
+                      alt=""
+                      class="img-fluid justify-content-center"
+                    />
+                  </div>
+                  <p class="text-center">
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                  <h3>Client: Threads</h3>
+                  <h3>Category: Illustration</h3>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-warning w-100 text-white"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4">
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="w-100"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <img src="image/5.jpg" alt="" class="img-fluid" />
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade w-100"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1
+                      class="modal-title fs-3 text-center"
+                      id="staticBackdropLabel"
+                    >
+                      Project Name
+                    </h1>
+                    <br />
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur</p> -->
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="image/5.jpg"
+                      alt=""
+                      class="img-fluid justify-content-center"
+                    />
+                  </div>
+                  <p class="text-center">
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                  <h3>Client: Threads</h3>
+                  <h3>Category: Illustration</h3>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-warning w-100 text-white"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4">
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="w-100"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <img src="image/6.jpg" alt="" class="img-fluid" />
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade w-100"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1
+                      class="modal-title fs-2 text-center"
+                      id="staticBackdropLabel"
+                    >
+                      Project Name
+                    </h1>
+                    <br />
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur</p> -->
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="image/6.jpg"
+                      alt=""
+                      class="img-fluid justify-content-center"
+                    />
+                  </div>
+                  <p class="text-center">
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                  <h3>Client: Threads</h3>
+                  <h3>Category: Illustration</h3>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-warning w-100 text-white"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------- section PORTFOLIO fin --------------->
+
+    <!----------------- About Sections ------------->
+    <section class="about-section" id="about">
+      <div class="container py-5">
+          <div class="text-center">
+              <h2 class="section-heading text-uppercase">About</h2>
+              <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+          <ul class="timeline">
+              <li>
+                  <div class="timeline-image"><img class="rounded-circle img-fluid" src="image/about/1.jpg" alt="..." /></div>
+                  <div class="timeline-panel">
+                      <div class="timeline-heading">
+                          <h4>2009-2011</h4>
+                          <h4 class="subheading">Our Humble Beginnings</h4>
+                      </div>
+                      <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                  </div>
+              </li>
+              <li class="timeline-inverted">
+                  <div class="timeline-image"><img class="rounded-circle img-fluid" src="image/about/2.jpg" alt="..." /></div>
+                  <div class="timeline-panel">
+                      <div class="timeline-heading">
+                          <h4>March 2011</h4>
+                          <h4 class="subheading">An Agency is Born</h4>
+                      </div>
+                      <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                  </div>
+              </li>
+              <li>
+                  <div class="timeline-image"><img class="rounded-circle img-fluid" src="image/about/3.jpg" alt="..." /></div>
+                  <div class="timeline-panel">
+                      <div class="timeline-heading">
+                          <h4>December 2015</h4>
+                          <h4 class="subheading">Transition to Full Service</h4>
+                      </div>
+                      <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                  </div>
+              </li>
+              <li class="timeline-inverted">
+                  <div class="timeline-image"><img class="rounded-circle img-fluid" src="image/about/4.jpg" alt="..." /></div>
+                  <div class="timeline-panel">
+                      <div class="timeline-heading">
+                          <h4>July 2020</h4>
+                          <h4 class="subheading">Phase Two Expansion</h4>
+                      </div>
+                      <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                  </div>
+              </li>
+              <li class="timeline-inverted">
+                  <div class="timeline-image">
+                      <h4>
+                          Be Part
+                          <br />
+                          Of Our
+                          <br />
+                          Story!
+                      </h4>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </section>
+
+    <!-------------- section AMAZING --------------->
+    <section id="Team">
+    <div class="container bg-light py-5">
+      <div class="text-center">
+        <h1>Our Amazing Team</h1>
+        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="row gy-5">
+        <div class="col-md-4 col-lg-4 text-center">
+          <img src="image/1 (1).jpg" alt="" class="img-fluid rounded-circle border border-5" />
+          <h3>Parveen Anand</h3>
+          <p class="text-secondary">Lead Designer</p>
+          <div class="group">
+            <div class="contain">
+              <i class="fa-brands fa-twitter" style="color: #f9fafa"></i>
+            </div>
+            <div class="contain">
+              <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+            </div>
+            <div class="contain">
+              <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4 text-center">
+          <img src="image/2 (1).jpg" alt="" class="img-fluid rounded-circle border border-5" />
+          <h3>Parveen Anand</h3>
+          <p class="text-secondary">Lead Designer</p>
+          <div class="group">
+            <div class="contain">
+              <i class="fa-brands fa-twitter" style="color: #f9fafa"></i>
+            </div>
+            <div class="contain">
+              <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+            </div>
+            <div class="contain">
+              <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4 text-center">
+          <img src="image/3 (1).jpg" alt="" class="img-fluid rounded-circle border border-5" />
+          <h3>Parveen Anand</h3>
+          <p class="text-secondary">Lead Designer</p>
+          <div class="group">
+            <div class="contain">
+              <i class="fa-brands fa-twitter" style="color: #f9fafa"></i>
+            </div>
+            <div class="contain">
+              <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+            </div>
+            <div class="contain">
+              <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center py-5 mt-5 text-secondary">
+        <h5>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
+          laboriosam veritatis, quos non quis ad perspiciatis, totam corporis
+          ea, alias ut unde.
+        </h5>
+      </div>
+    </div>
+  </section> 
+    <!-------------- section AMAZING fin --------------->
+
+    <!-------------- section LIENS  --------------->
+    <section id="Team">
+    <div class="container py-5 justify-content-center">
+      <div class="row">
+        <div class="col-md-3 col-lg-3">
+          <img src="image/microsoft.svg" alt="" class="img-fluid w-50" />
+        </div>
+        <div class="col-md-3 col-lg-3">
+          <img src="image/google.svg" alt="" class="img-fluid w-50" />
+        </div>
+        <div class="col-md-3 col-lg-3">
+          <img src="image/facebook.svg" alt="" class="img-fluid w-50" />
+        </div>
+        <div class="col-md-3 col-lg-3">
+          <img src="image/ibm.svg" alt="" class="img-fluid w-50" />
+        </div>
+      </div>
+    </div>
+  </section> 
+    <!-------------- section LIENS fin  --------------->
 
 
+  <!-------------- section contact  --------------->
+    <section id="Contact" class="container-fluid py-5">
+    <div class="text-center">
+      <h1 class="fs-2 fw-bolder text-white">CONTACT US</h1>
+      <p class="text-secondary text-uppercase">Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+          <div class="card mt-5">
+            <input class="py-3" type="text" name="Your Name" placeholder="Your Name *" data-sb-feedback="email:required" />
+          </div>
+          <div class="card mt-5">
+            <input class="py-3" type="email" name="Your Name" placeholder="Your Mail *" data-sb-feedback="email:required" />
+          </div>
+          <div class="card mt-5">
+            <input class="py-3" type="tel" name="Your Name" placeholder="Your Phone *" data-sb-feedback="email:required" />
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-5 w-50 py-5">
+          <div class="card">
 
+            <label for="message" data-sb-feedback="email:required"></label>
+            <textarea name="message" id="message" rows="11" placeholder="Your Message*"></textarea>
+          </div>
+        </div>
 
+      </div>
+      
+    </div>
+    <div class="text-center">
+      <button class="btn btn-warning text-white btn-xl text-uppercase " id="submitButton" type="submit">Send Message</button>
+    </div>
+  </section>
 
+    <!-- footer sectoion -->
+  <section id="footer">
+    <div class="container-fluid bg-light py-5">
+      <div class="row gy-5">
+        <div class="col-md-4 col-lg-4 text-center">
+          <p>Copyright © Your Website 2023</p>
+        </div>
+        <div class="col-md-4 col-lg-4 text-center">
+          <div class="group">
+            <div class="contain">
+              <i class="fa-brands fa-tiktok" style="color: #f9fafa"></i>
+            </div>
+            <div class="contain">
+              <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+            </div>
+            <div class="contain">
+              <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-md-4 col-lg-4 d-block text-center">
 
+          <a href="#"> privacy policy</a>
+          <a href="#">terms of use</a>
+        </div>
+      </div>
 
+    </div>
+  </section> 
 
-
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
